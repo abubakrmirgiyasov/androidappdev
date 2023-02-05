@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidAppDevelopment.SecondPart.MainPage"
+             Loaded="OnPageLoaded">
+
+    <ScrollView>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Text="Изменяемый слой"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       BackgroundColor="#20262E"
+                       TextColor="WhiteSmoke"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"/>
+
+                <Entry Grid.Column="0"
+                       Grid.Row="2"
+                       x:Name="XEntry"
+                       Placeholder="Введите X:"
+                       VerticalOptions="Center"
+                       VerticalTextAlignment="Center"
+                       FontSize="16"
+                       Keyboard="Numeric"
+                       Margin="10, 10, 10, 10"/>
+                <Entry Grid.Column="1"
+                       Grid.Row="2"
+                       x:Name="YEntry"
+                       Placeholder="Введите Y:"
+                       VerticalOptions="Center"
+                       VerticalTextAlignment="Center"
+                       FontSize="16"
+                       Keyboard="Numeric"
+                       Margin="10, 10, 10, 10"/>
+            </Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="10" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Text="Не изменяемый слой"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3"
+                       BackgroundColor="#20262E"
+                       TextColor="WhiteSmoke"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"/>
+
+                <Entry Grid.Column="2"
+                       Grid.Row="2"
+                       x:Name="Sum"
+                       IsEnabled="False"
+                       Placeholder="Сумма"
+                       VerticalOptions="Center"
+                       VerticalTextAlignment="Center"
+                       FontSize="16"
+                       Keyboard="Numeric"
+                       Margin="10, 10, 10, 10"/>
+
+                <Button Text="+" 
+                        FontSize="16"
+                        Grid.Column="0"
+                        Grid.Row="2"
+                        Margin="10, 10, 10, 10"
+                        Clicked="OnPlusClick"/>
+                <Button Text="-"
+                        FontSize="16"
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        Margin="10, 10, 10, 10"
+                        Clicked="OnMinusClick"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
