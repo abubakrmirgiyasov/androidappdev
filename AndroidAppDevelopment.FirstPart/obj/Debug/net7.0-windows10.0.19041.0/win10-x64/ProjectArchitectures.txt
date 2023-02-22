@@ -1,1 +1,0 @@
-D:\Works\AndroidAppDevelopment\AndroidAppDevelopment.FirstPart\AndroidAppDevelopment.FirstPart.csproj;x64
