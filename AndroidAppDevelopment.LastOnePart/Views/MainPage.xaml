@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidAppDevelopment.LastOnePart.MainPage"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             xmlns:loc="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials">
+
+    <Grid>
+        <maps:Map x:Name="map">
+            <maps:Map.MapElements>
+                <maps:Polygon StrokeColor="#ff9900"
+                              StrokeWidth="8"
+                              FillColor="#88ff9900">
+                    <maps:Polygon.Geopath>
+                        <loc:Location>
+                            <x:Arguments>
+                                <x:Double>
+                                    40.28483457709953
+                                </x:Double>
+                                <x:Double>
+                                    69.8502700880708
+                                </x:Double>
+                            </x:Arguments>
+                        </loc:Location>
+                    </maps:Polygon.Geopath>
+                </maps:Polygon>
+            </maps:Map.MapElements>
+        </maps:Map>
+    </Grid>
+
+</ContentPage>

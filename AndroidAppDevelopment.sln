@@ -9,6 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidAppDevelopment.Secon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidAppDevelopment.ThirdPart", "AndroidAppDevelopment.ThirdPart\AndroidAppDevelopment.ThirdPart.csproj", "{2802A617-C800-4459-956B-25AE84FDB22E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidAppDevelopment.FourthPart", "AndroidAppDevelopment.FourthPart\AndroidAppDevelopment.FourthPart.csproj", "{1C1812A6-6674-4CB6-9738-C33C540C817D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidAppDevelopment.LastOnePart", "AndroidAppDevelopment.LastOnePart\AndroidAppDevelopment.LastOnePart.csproj", "{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidAppDevelopment.LastPart", "AndroidAppDevelopment.LastPart\AndroidAppDevelopment.LastPart.csproj", "{8164A1EB-4637-4650-9808-4F14280BCC16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidAppDevelopment.Sudoku", "AndroidAppDevelopment.Sudoku\AndroidAppDevelopment.Sudoku.csproj", "{CA4A462F-2672-49D9-8225-9A9F1133C2EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +40,30 @@ Global
 		{2802A617-C800-4459-956B-25AE84FDB22E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{2802A617-C800-4459-956B-25AE84FDB22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2802A617-C800-4459-956B-25AE84FDB22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1812A6-6674-4CB6-9738-C33C540C817D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1812A6-6674-4CB6-9738-C33C540C817D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1812A6-6674-4CB6-9738-C33C540C817D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C1812A6-6674-4CB6-9738-C33C540C817D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1812A6-6674-4CB6-9738-C33C540C817D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1812A6-6674-4CB6-9738-C33C540C817D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC808C7E-14D0-4DD4-84CB-0E7437F6185E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8164A1EB-4637-4650-9808-4F14280BCC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8164A1EB-4637-4650-9808-4F14280BCC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8164A1EB-4637-4650-9808-4F14280BCC16}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8164A1EB-4637-4650-9808-4F14280BCC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8164A1EB-4637-4650-9808-4F14280BCC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8164A1EB-4637-4650-9808-4F14280BCC16}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA4A462F-2672-49D9-8225-9A9F1133C2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4A462F-2672-49D9-8225-9A9F1133C2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4A462F-2672-49D9-8225-9A9F1133C2EE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA4A462F-2672-49D9-8225-9A9F1133C2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4A462F-2672-49D9-8225-9A9F1133C2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4A462F-2672-49D9-8225-9A9F1133C2EE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
