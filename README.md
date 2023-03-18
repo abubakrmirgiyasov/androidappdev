@@ -25,4 +25,4 @@
 
 ## AndroidAppDevelopment.Sudoku - Дополнительное задание
 
-![](AndroidAppDevelopment.FirstPart/Resources/Images/firstpart.png)
+![](AndroidAppDevelopment.Sudoku/Resources/Images/sudoku.png)
