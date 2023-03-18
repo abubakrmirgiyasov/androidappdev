@@ -3,6 +3,7 @@
     public partial class MainPage : ContentPage
     {
         private readonly List<Entry> _entries;
+        private int _random = 0;
 
         public MainPage()
         {
@@ -86,9 +87,12 @@
 
         private void GenerateRandomValues(Entry entry, int row)
         {
-            int random = new Random().Next(1, 6);
+            if (_random == new Random().Next(1, 6))
+                return;
 
-            if (random == row)
+            _random = new Random().Next(1, 6);
+
+            if (_random == row)
             {
                 entry.IsEnabled = false;
               
