@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndroidAppDevelopment.LastOnePart.MainPage">
+
+    <ScrollView>
+        <WebView Source="https://www.google.com/maps/@40.2848432,69.8502726,3a,75y,128.71h,88.86t/data=!3m8!1e1!3m6!1sAF1QipN5CD-DEECl6agOW19QUkmzL5vHAvXqWO2Fg9qI!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN5CD-DEECl6agOW19QUkmzL5vHAvXqWO2Fg9qI%3Dw203-h100-k-no-pi-0-ya312.77213-ro0-fo100!7i8704!8i4352?authuser=0" />
+    </ScrollView>
+
+</ContentPage>

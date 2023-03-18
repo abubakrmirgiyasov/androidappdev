@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.androidappdevelopment.lastonepart</ApplicationId>
-		<ApplicationIdGuid>be237a30-f889-4ba9-b104-6eaea951d0b8</ApplicationIdGuid>
+		<ApplicationIdGuid>abe5718e-f6ac-4a3b-b4d1-92075100fa34</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -50,7 +50,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Maui.Controls.Maps" Version="7.0.59" />
 	</ItemGroup>
 
 </Project>
